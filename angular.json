@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Lecture7_Example1": {
+    "Lecture7_example1": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Lecture7_Example1:build:production"
+              "browserTarget": "Lecture7_example1:build:production"
             },
             "development": {
-              "browserTarget": "Lecture7_Example1:build:development"
+              "browserTarget": "Lecture7_example1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Lecture7_Example1:build"
+            "browserTarget": "Lecture7_example1:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "Lecture7_Example1"
+  "defaultProject": "Lecture7_example1"
 }
